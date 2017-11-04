@@ -58,4 +58,4 @@ combined_data$activity<-factor(activity_labels[combined_data$activity,V2])
 tidy_data<-combined_data[,lapply(.SD,mean),by=c("subjectID","activity")]
 
 # write the tidy data set to a file
-write.csv(tidy_data, "tidy_data.csv", row.names=FALSE)
+write.table(tidy_data, "tidy_data.txt", row.names=FALSE,quote=FALSE)
