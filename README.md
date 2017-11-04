@@ -15,8 +15,8 @@ The class project for Getting and Cleaning Data was to read in the ["Human Activ
 	* `y_train.txt`
 	* `y_test.txt`
 
-**Once those steps are complete, you can run the R script ([run_analysis.R](run_analysis.R)).** Note that it requires the data.table package, which can be downloaded from CRAN.
+**Once those steps are complete, you can run the R script ,run_analysis.R.** Note that it requires the data.table package, which can be downloaded from CRAN.
 
-**The output of the R script is a tidy data set, [tidy_data.csv](tidy.csv).**
+**The output of the R script is a tidy data set, tidy_data.txt.**
 
-You can read more about the data and the analysis in the [code book](CodeBook.md).
+You can read more about the data and the analysis in CodeBook.md.
